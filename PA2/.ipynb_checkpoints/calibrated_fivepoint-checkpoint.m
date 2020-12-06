@@ -62,8 +62,12 @@ function Evec = calibrated_fivepoint( Q1,Q2)
 
 
 %1 Pose linear equations for the essential matrix. 
-Q1 = Q1';
-Q2 = Q2';
+Q1 = str2double(Q1');
+Q2 = str2double(Q2');
+
+disp(class(Q1));
+Q1 = rand(3,5)
+Q2 = rand(3,5)
 
 Q = [Q1(:,1).*Q2(:,1) , ...
      Q1(:,2).*Q2(:,1) , ...
