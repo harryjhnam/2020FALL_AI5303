@@ -1,0 +1,12 @@
+{
+    "embed_dim": 256,
+    "hidden_dim": 512,
+    "max_len": 20,
+    "n_epochs": 50,
+    "batch_size": 32,
+    "vocab_min_count": 5,
+    "decoder_lr": 5e-4,
+    "encoder_lr": 1e-5,
+    "momentum": 0.8,
+    "weight_decay": 0.999
+}
